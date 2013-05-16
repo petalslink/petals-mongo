@@ -1,4 +1,4 @@
-petals-nosql
+petals-mongo
 ============
 
-NOSQL stuff
+MongoDB related stuff for Petals ESB.

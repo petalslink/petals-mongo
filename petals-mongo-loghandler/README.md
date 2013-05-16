@@ -1,6 +1,6 @@
 # Petals Log Mongo
 
-Pushing Petals logs to MongoDB.
+Pushing Petals logs to MongoDB (cf https://doc.petalslink.com/display/petalsesbsnapshot/Logging+in+Petals).
 
 ## Configuration Parameters
 
@@ -29,7 +29,12 @@ Pushing Petals logs to MongoDB.
 
 As usual with MongoDB, all required stuff (DB, Collection, ...) are created on first call if needed. The only thing needed is a running instance.
 
-## Samples
+## Usage
+
+- Put the current generated JAR and all its dependencies (petals-mongo-commons and mongo-java-driver) into the PETALS/lib folder.
+- The PETALS/conf/loggers.properties needs to be updated to add the org.ow2.petals.log.mongo.MongoHandler into the handlers list.
+
+## Output Sample
 
 Here are some log samples from the Mongo console (nothing really wonderful...):
 
